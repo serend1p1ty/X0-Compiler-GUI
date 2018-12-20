@@ -8,7 +8,7 @@ This is a GUI of [X0-Compiler](https://github.com/GooCoder/X0-Compiler). It has 
 
 2. You can choose file from your computer.
 
-   ![](https://github.com/GooCoder/X0-Compiler-GUI/blob/master/images/GIF4.gif)
+   ![](https://github.com/GooCoder/X0-Compiler-GUI/blob/master/images/GIF2.gif)
 
 3. If you want to **run** a program:
 
@@ -16,7 +16,7 @@ This is a GUI of [X0-Compiler](https://github.com/GooCoder/X0-Compiler). It has 
 
    - Step2: Run the program.
 
-     ![](https://github.com/GooCoder/X0-Compiler-GUI/blob/master/images/GIF2.gif)
+     ![](https://github.com/GooCoder/X0-Compiler-GUI/blob/master/images/GIF3.gif)
 
 4. If you want to **debug** a program:
 
@@ -24,7 +24,7 @@ This is a GUI of [X0-Compiler](https://github.com/GooCoder/X0-Compiler). It has 
 
    - Step2: Debug the program and you can see dynamic changes in data stack.
 
-     ![](https://github.com/GooCoder/X0-Compiler-GUI/blob/master/images/GIF3.gif)
+     ![](https://github.com/GooCoder/X0-Compiler-GUI/blob/master/images/GIF4.gif)
 
 
 ## Installation
