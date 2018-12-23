@@ -29,7 +29,9 @@ This is the GUI of [X0-Compiler](https://github.com/GooCoder/X0-Compiler). It ha
 
 ## Installation
 
-Clone the repository to your computer and open it with **Pycharm**.
+1. Install `PyQt5`using `pip install pyqt5`.
+
+2. Clone the repository to your computer and open it with **Pycharm**.
 
 ## Help
 
