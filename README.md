@@ -1,6 +1,6 @@
 # X0-Compiler-GUI
 
-This is a GUI of [X0-Compiler](https://github.com/GooCoder/X0-Compiler). It has these following features.
+This is the GUI of [X0-Compiler](https://github.com/GooCoder/X0-Compiler). It has these following features.
 
 1. Graceful code editor
 
