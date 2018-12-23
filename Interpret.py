@@ -224,10 +224,12 @@ def interpretOneStep(output):
             t = t - 1
         elif inst.opr1 == 16:
             t = t - 1
-            s[t] = s[t] and s[t + 1]
+            s[t].dataType = DataType.Bool
+            s[t].intData = s[t].intData and s[t + 1].intData
         elif inst.opr1 == 17:
             t = t - 1
-            s[t] = s[t] or s[t + 1]
+            s[t].dataType = DataType.Bool
+            s[t].intData = s[t].intData or s[t + 1].intData
         elif inst.opr1 == 18:
             s[t].dataType = DataType.Bool
             s[t].intData = not s[t].intData

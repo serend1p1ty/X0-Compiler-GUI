@@ -130,24 +130,6 @@ class StackObject:
         res.dataType = DataType.Bool
         return res
 
-    def __and__(self, other):
-        if self.dataType == DataType.Double or other.dataType == DataType.Double:
-            print("the operand of && operation must be integer!")
-            exit(1)
-        res = StackObject()
-        res.intData = self.intData and other.intData
-        res.dataType = DataType.Bool
-        return res
-
-    def __or__(self, other):
-        if self.dataType == DataType.Double or other.dataType == DataType.Double:
-            print("the operand of || operation must be integer!")
-            exit(1)
-        res = StackObject()
-        res.intData = self.intData or other.intData
-        res.dataType = DataType.Bool
-        return res
-
     def __xor__(self, other):
         if self.dataType == DataType.Double or other.dataType == DataType.Double:
             print("the operand of xor operation must be integer!")
